@@ -1,9 +1,9 @@
-const buttonElem = document.querySelector('.btn');
+const buttonElement = document.querySelector('.btn');
 
-buttonElem.addEventListener('mouseover', (event) => {
-const x = event.pageX - buttonElem.offsetLeft;
-const y = event.pageY - buttonElem.offsetTop;
+buttonElement.addEventListener('mouseover', (event) => {
+    const x = event.pageX - buttonElement.offsetLeft;
+    const y = event.pageY - buttonElement.offsetTop;
 
-buttonElem.style.setProperty('--xPos', x + 'px');
-buttonElem.style.setProperty('--yPos', y + 'px')
+    buttonElement.style.setProperty('--xPos', x + 'px');
+    buttonElement.style.setProperty('--yPos', y + 'px');
 })
