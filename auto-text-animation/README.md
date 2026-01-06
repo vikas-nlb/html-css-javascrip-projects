@@ -1,0 +1,1 @@
+This project helps display text in a typing style fromat

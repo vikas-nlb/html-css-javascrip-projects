@@ -1,0 +1,1 @@
+This project helps you display emoji based on cursor position.
