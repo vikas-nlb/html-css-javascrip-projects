@@ -1,36 +1,39 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: burlywood;
+    font-family: sans-serif;
+    background-color: aquamarine;
+    position: relative;
 }
 .btn{
+    padding: 20px 40px;
     background-color: aliceblue;
-    padding: 20px;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: 0 4px rgba(0,0,0,0.3);
-    position: relative;
+    box-shadow: 4px 8px rgba(0,0,0,0.3);
     overflow: hidden;
+    position: relative;
 }
 .btn span {
     position: relative;
-    color: black;
     z-index: 1;
+    color: black;
+    font-weight: bolder;
 }
-.btn::before {
+.btn::before{
     content: '';
     height: 0px;
     width: 0px;
-    border-radius: 50%;
     background-color: orange;
+    top: var(--yPos);
+    left: var(--xPos);
     position: absolute;
-    top: var(--xPos);
-    left: var(--yPos);
     transform: translate(-50%, -50%);
+    border-radius: 50%;
     transition: width 0.5s, height 0.5s;
 }
 .btn:hover::before{
