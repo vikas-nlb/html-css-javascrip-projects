@@ -1,0 +1,1 @@
+An app where we have a toggle button which helps toggle application themes
