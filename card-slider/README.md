@@ -1,0 +1,1 @@
+A card sider where the card changes every few seconds
