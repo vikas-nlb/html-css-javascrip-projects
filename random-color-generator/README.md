@@ -1,0 +1,1 @@
+A responsive application whih generators random colors
