@@ -1,0 +1,1 @@
+Creating a gallery where images rotate every few seconds and also can be rotate manually using buttons
