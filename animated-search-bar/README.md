@@ -1,0 +1,1 @@
+Creating a search bar which expand and closes on click
