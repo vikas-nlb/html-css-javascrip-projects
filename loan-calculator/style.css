@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.loan-container {
+  background-color: burlywood;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 50%;
+}
+h3 {
+  text-align: center;
+  font-size: larger;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0px;
+  height: 25px;
+  border: none;
+  border-radius: 2px;
+}
+
+#monthly-payment {
+  font-weight: 600;
+  font-size: 20px;
+}
